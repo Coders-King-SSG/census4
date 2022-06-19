@@ -1,9 +1,6 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import home
-import data
-
 st.set_page_config(page_title='Census | Main', page_icon='logo.png', layout='centered', initial_sidebar_state='auto')
 @st.cache()
 def load_data():
