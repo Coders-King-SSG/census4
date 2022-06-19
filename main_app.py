@@ -34,4 +34,4 @@ with c3:
 		st.table(df.dtypes)
 with c4:
 	if st.checkbox('Show column data'):
-		st.table(df[st.selectbox('Select column',df.columns)])
+		st.table(df[st.selectbox('Select column',df.columns)].value_counts())
