@@ -33,5 +33,5 @@ with c3:
 	if st.checkbox('Show column data-types'):
 		st.table(df.dtypes)
 with c4:
-	if st.checkbox('Showc column data'):
+	if st.checkbox('Show column data'):
 		st.table(df[st.selectbox('Select column',df.columns)])
